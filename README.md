@@ -1,19 +1,19 @@
 # Breast-Cancer-Summer-project
 
-Breast Cancer Prediction using SVM
-1. Project Requirements or Dependencies
+**Breast Cancer Prediction using SVM**
+**1. Project Requirements or Dependencies**
 Anaconda Python (to get ML Libraries)
 
-2. Required Dataset
+**Required Dataset**
 Dataset can be found on UCI Machine Learning Repository: https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29
 
 Attribute Information:
 
-ID number
+**ID number**
 
-Diagnosis (M = malignant, B = benign)
+**Diagnosis (M = malignant, B = benign)**
 
-(3 – 32) Ten real-valued features are computed for each cell nucleus:
+**(3 – 32) Ten real-valued features are computed for each cell nucleus:**
 
 radius (mean of distances from center to points on the perimeter)
 texture (standard deviation of gray-scale values)
@@ -24,7 +24,7 @@ area
 
 smoothness (local variation in radius lengths)
 
-compactness (perimeter^2 / area - 1.0)
+**compactness (perimeter^2 / area - 1.0)**
 
 concavity (severity of concave portions of the contour)
 
@@ -72,3 +72,6 @@ Normal Nucleoli:1-10
 Mitoses:1-10
 
 Class: (2 for Benign, 4 for Malignant)
+
+**Build and Train the model using SVM**
+Using SVM (Support Vector Machines) we build and train a model using human cell records, and classify cells to predict whether the samples are benign or malignant.
