@@ -45,3 +45,30 @@ Class distribution: 357 benign, 212 malignant
 3.Build and Train model to predict using SVM
 
 Using SVM (Support Vector Machines) we build and train a model using human cell records, and classify cells to predict whether the samples are benign or malignant
+
+
+Breast Cancer Wisconsin (Diagnostic) Original Data Set
+
+Attribute Information:
+
+Sample code number: ID number
+Clump Thickness:1-10
+
+Uniformity of Cell size:1-10
+
+
+Uniformity of Cell shape:1-10
+
+Marginal Adhesion:1-10
+
+Single Epithelial Cell Size:1-10
+
+Bare Nuclei:1-10
+
+Bland Chromatin:1-10
+
+Normal Nucleoli:1-10
+
+Mitoses:1-10
+
+Class: (2 for Benign, 4 for Malignant)
